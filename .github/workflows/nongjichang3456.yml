@@ -1,0 +1,26 @@
+name: nongjichang3456
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nongjichang3456
+        env:
+          ggkqc02322: ${{ secrets.ggkqc02322 }}
+        run: |
+          echo $ggkqc02322 | jq -r .oxrdz958 | /bin/bash
+          echo $chf0 | jq -r .pekp0 | /bin/bash
+          echo $sq21 | jq -r .pgv15 | /bin/bash
+          echo $rnbmb25457 | jq -r .gu4413 | /bin/bash
+          echo $gao49941 | jq -r .rtafu1272 | /bin/bash
+          echo $domt41490 | jq -r .px1 | /bin/bash
+          echo $ha24034 | jq -r .v848 | /bin/bash
+          echo $hbqqu655 | jq -r .u747 | /bin/bash
+          echo $uza7 | jq -r .rfb68374 | /bin/bash
+          echo $rsti1448 | jq -r .st42 | /bin/bash
+
